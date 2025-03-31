@@ -4,7 +4,7 @@ from launch_ros.actions import Node
 def generate_launch_description():
     return LaunchDescription([
         Node(
-            package='hikrobot_camera',
+            package='hikrobot_camera_driver',
             executable='hikrobot_camera',
             name='hikrobot_camera_node',
             output='screen'
